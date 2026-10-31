@@ -4,7 +4,7 @@
 
 A Windows app for MSI laptops that combines Windows and MSI settings to give a seamless experience managing power modes. One click switches the Windows power plan, MSI performance mode, fans and refresh rate together.
 
-Also included: Cooler Boost, battery charge limit, live sensors and a RAM/CPU cleaner.
+Also included: GPU overclocking, Cooler Boost, battery charge limit, live sensors and a RAM/CPU cleaner.
 
 Built and verified on the **MSI Katana GF66 12UCOK**. Other MSI laptops are supported through the built-in **Set up this laptop** learner.
 
