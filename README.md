@@ -8,6 +8,8 @@ Also included: GPU overclocking, Cooler Boost, battery charge limit, live sensor
 
 Built and verified on the **MSI Katana GF66 12UCOK**. Other MSI laptops are supported through the built-in **Set up this laptop** learner.
 
+![MSI Power Control main window](docs/screenshot.png)
+
 ## Download
 
 **[Download the latest MSIPowerControl.exe](https://github.com/h21-x/msi-power-control/releases/latest)** (Assets, then `MSIPowerControl.exe`).

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSI Power Control</title>
+<meta name="description" content="Combines Windows and MSI settings for seamless power mode management on MSI laptops.">
+<style>
+:root{--bg:#0d0f14;--card:#151922;--line:#262b36;--fg:#e8eaf0;--mut:#8b90a0;--red:#ff5a4d;--green:#3ecf8e;--blue:#4f8cff;--amber:#f5b84a;--violet:#b06bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 "Segoe UI",system-ui,-apple-system,sans-serif}
+main{max-width:980px;margin:0 auto;padding:32px max(16px,env(safe-area-inset-left,0px)) 56px}
+img{max-width:100%;height:auto;display:block}
+.banner{border-radius:12px;border:1px solid var(--line)}
+h1{font-size:2rem;margin:28px 0 6px}
+.lead{color:var(--mut);max-width:62ch;margin:0 0 22px}
+.cta{display:inline-block;background:linear-gradient(135deg,var(--red),var(--violet));color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:999px}
+.cta:hover{filter:brightness(1.1)}
+.sub{color:var(--mut);font-size:.9rem;margin-top:10px}
+h2{font-size:1.2rem;margin:40px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0}
+.card b{display:block;margin-bottom:2px}
+.card span{color:var(--mut);font-size:.92rem}
+.shot{border-radius:10px;border:1px solid var(--line);margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 4px}
+.chip{border:1.5px solid;border-radius:999px;padding:3px 12px;font-size:.85rem;font-weight:600}
+footer{margin-top:44px;color:var(--mut);font-size:.85rem;border-top:1px solid var(--line);padding-top:16px}
+footer a{color:var(--blue)}
+</style>
+</head>
+<body>
+<main>
+<img class="banner" src="banner.png" alt="MSI Power Control">
+<h1>MSI Power Control</h1>
+<p class="lead">A Windows app for MSI laptops that combines Windows and MSI settings to give a seamless experience managing power modes. One click switches the Windows power plan, MSI performance mode, fans and refresh rate together.</p>
+<a class="cta" href="https://github.com/h21-x/msi-power-control/releases/latest">Download for Windows</a>
+<div class="sub">Single portable .exe, no installer. Windows 10 / 11, MSI Center required.</div>
+
+<h2>Five one-click modes</h2>
+<div class="chips">
+<span class="chip" style="color:var(--red)">Highest Performance</span>
+<span class="chip" style="color:var(--violet)">Game</span>
+<span class="chip" style="color:var(--blue)">Balanced</span>
+<span class="chip" style="color:var(--green)">Quiet</span>
+<span class="chip" style="color:var(--amber)">Power Saving</span>
+</div>
+<img class="shot" src="screenshot.png" alt="MSI Power Control main window">
+
+<h2>What you get</h2>
+<div class="grid">
+<div class="card"><b>Cooler Boost and GPU overclock</b><span>One-click fan boost and a +150 core / +150 VRAM overclock on NVIDIA models, read back from the GPU.</span></div>
+<div class="card"><b>Battery care</b><span>Adaptive charging with a 60 / 70 / 80 / 90 % charge limit.</span></div>
+<div class="card"><b>Live sensors</b><span>Temperatures, fans, power, clocks, load, RAM and VRAM on colour-coded gauges.</span></div>
+<div class="card"><b>Smart cleaner</b><span>Frees RAM and CPU safely, with an optional auto-clean that triggers at a threshold you choose.</span></div>
+<div class="card"><b>Auto-switch</b><span>Optionally changes mode when you plug in or unplug the charger.</span></div>
+<div class="card"><b>Other MSI laptops</b><span>A built-in learner maps your model by watching MSI Center. Verified on the Katana GF66 12UCOK.</span></div>
+</div>
+
+<footer>
+by H21x. Free to use and to share unmodified; the source code is not published; provided as is, without warranty.
+Not affiliated with, endorsed by or sponsored by MSI (Micro-Star International). MSI, MSI Center and Katana are trademarks of their respective owners.
+<br><a href="https://github.com/h21-x/msi-power-control">GitHub</a> &middot; <a href="https://github.com/h21-x/msi-power-control/issues">Report an issue</a>
+</footer>
+</main>
+</body>
+</html>
