@@ -2,7 +2,9 @@
 
 ![MSI Power Control](docs/banner.png)
 
-A Windows app for MSI laptops that combines Windows power settings and MSI settings into one seamless experience for managing power modes. Pick a mode and the Windows power plan, MSI performance mode, fans and screen refresh rate switch together. It also provides Cooler Boost, a battery charge limit, live sensors and a memory cleaner.
+A Windows app for MSI laptops that combines Windows and MSI settings to give a seamless experience managing power modes. One click switches the Windows power plan, MSI performance mode, fans and refresh rate together.
+
+Also included: Cooler Boost, battery charge limit, live sensors and a RAM/CPU cleaner.
 
 Built and verified on the **MSI Katana GF66 12UCOK**. Other MSI laptops are supported through the built-in **Set up this laptop** learner.
 
