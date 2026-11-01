@@ -35,6 +35,7 @@ The same window under full load, with the gauges colour-coded and the thermal wa
 | **Auto-switch** | Optional: switch mode when you plug in or unplug the charger. Otherwise your last mode is remembered and kept. |
 | **Cleaner** | Frees RAM / CPU safely (Ctrl+Alt+R), optional auto-clean for Game mode. |
 | **Remembers everything** | Last mode, window size and position, Cooler Boost, charge limit, and your settings. |
+| **Updates** | About, then Check for updates: downloads the new exe, checks it against the published SHA-256 and restarts into it. Your settings are kept (and backed up before any format change). |
 | **Other MSI laptops** | **Set up this laptop** learns your model's controller map by watching MSI Center, writing nothing it has not seen MSI change. |
 | **AMD / Intel** | AMD and Intel CPUs and GPUs are supported (load, VRAM, plans). GPU overclock is NVIDIA-only. The AMD paths have not been run on real Ryzen / Radeon hardware yet. |
 
