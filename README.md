@@ -31,12 +31,14 @@ The same window under full load, with the gauges colour-coded and the thermal wa
 | **Cooler Boost** | One-click fan boost (Ctrl+Alt+C), remembered across reboots. |
 | **GPU overclock** | +150 core / +150 VRAM in one click on NVIDIA models, read back from the GPU. |
 | **Battery care** | Adaptive charging with a 60 / 70 / 80 / 90 % charge limit. |
-| **Live sensors** | CPU / GPU temperature, both fans, CPU / GPU / total power, clock, load, RAM, VRAM, commit and page file. Colour-coded gauges. |
+| **Live sensors** | CPU / GPU temperature, both fans, CPU / GPU / total power, clock, load, RAM (with its clock in MHz), VRAM, commit and page file, and the screen's current refresh rate. Colour-coded gauges. |
+| **Total power** | Measured from the battery when unplugged. On the charger it is an estimate: CPU and GPU watts plus screen brightness, refresh rate, fans (so Cooler Boost shows), keyboard backlight, volume and the rest of the machine. Hover the number to see where the watts go. The per-part figures are typical values, not wall-meter readings. |
 | **Auto-switch** | Optional: switch mode when you plug in or unplug the charger. Otherwise your last mode is remembered and kept. |
+| **Keep my mode** | If Windows, MSI Center or another program switches the power plan or the MSI mode behind your back, the app puts your mode back within a few seconds. If something keeps undoing it, the app backs off and says so. On by default, one tick box to turn it off. |
 | **Cleaner** | Frees RAM / CPU safely (Ctrl+Alt+R), optional auto-clean for Game mode. |
 | **Remembers everything** | Last mode, window size and position, Cooler Boost, charge limit, and your settings. |
 | **Thermal guard** | Turns Cooler Boost on by itself when the CPU or GPU runs hot and off when it cools. In Balanced mode it can also switch off CPU boost until the CPU cools. Never touches CPU boost in Highest Performance or Game. |
-| **Updates** | About, then Check for updates: downloads the new exe, checks it against the published SHA-256 and restarts into it. Your settings are kept (and backed up before any format change). |
+| **Updates** | About, then Check for updates: downloads the new exe, checks it against the published SHA-256 and restarts into it. (Updating from 1.3.0 or older swaps the file but needs one manual start of the exe afterwards; from 1.4.1 on it restarts by itself.) Your settings are kept (and backed up before any format change). |
 | **Other MSI laptops** | **Set up this laptop** learns your model's controller map by watching MSI Center, writing nothing it has not seen MSI change. |
 | **AMD / Intel** | AMD and Intel CPUs and GPUs are supported (load, VRAM, plans). GPU overclock is NVIDIA-only. The AMD paths have not been run on real Ryzen / Radeon hardware yet. |
 
