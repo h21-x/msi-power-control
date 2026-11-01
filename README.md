@@ -10,6 +10,10 @@ Built and verified on the **MSI Katana GF66 12UCOK**. Other MSI laptops are supp
 
 ![MSI Power Control main window](docs/screenshot.png)
 
+The same window under full load, with the gauges colour-coded and the thermal warning showing:
+
+![MSI Power Control under load](docs/screenshot-under-load.png)
+
 ## Download
 
 **[Download the latest MSIPowerControl.exe](https://github.com/h21-x/msi-power-control/releases/latest)** (Assets, then `MSIPowerControl.exe`).
